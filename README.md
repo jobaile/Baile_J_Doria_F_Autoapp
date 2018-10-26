@@ -1,5 +1,5 @@
-# Joanna Baile and Fernando D'Oria AV App
-AV App Assginment
+# Joanna Baile and Fernando D'Oria Auto App
+Auto App Assginment
 
 ## Authors
 * **Fernando D'Oria** (https://github.com/nandodoria)
