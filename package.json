@@ -1,0 +1,31 @@
+{
+  "name": "baile_joanna_doria_fernando_autoapp",
+  "version": "1.0.0",
+  "description": "Auto application that showcases the car",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobaile/Baile_Joanna_Doria_Fernando_Autoapp.git"
+  },
+  "keywords": [
+    "car",
+    "project",
+    "fanshawe",
+    "application",
+    "php",
+    "js"
+  ],
+  "author": "Fernando D'Oria and Joanna Baile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jobaile/Baile_Joanna_Doria_Fernando_Autoapp/issues"
+  },
+  "homepage": "https://github.com/jobaile/Baile_Joanna_Doria_Fernando_Autoapp#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
