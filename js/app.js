@@ -23,12 +23,14 @@
         methods : {
             fetchSingle(e) {
                 //debugger;
+                //console.log("from fetchSingle");
                 this.fetchCarData(e.currentTarget.dataset.part);
 
             },
 
             loadPart(e) {
                 //debugger;
+                //console.log("from loadPart");
                 e.preventDefault(); // block a page reload (anchor tag default behaviour
 
                 dataKey = e.currentTarget.getAttribute('href');
@@ -43,7 +45,7 @@
             },
 
             fetchCarData(part) {
-                //this is a ternary statement (shorthand for if/else). left of the : is true, right is false
+                //console.log("from fetchCarData");
                 let url = part ? `./includes/index.php?part=${part}` : './includes/index.php';
 
                 fetch(url) // pass in the one or many query
@@ -52,10 +54,10 @@
                     console.log(data);
 
                     if (part) {
-                        // this fetches one work
+                        // this fetches one part
                         this.singledata = data; //this is gonna go to the data
                     } else {
-                        // this will push all the portfolio content
+                        // this will push all the content
                         this.partdata = data;
                     }
                 })
