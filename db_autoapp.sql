@@ -54,7 +54,6 @@ ALTER TABLE `tbl_details`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
 --
 -- AUTO_INCREMENT for table `tbl_details`
 --
