@@ -1,7 +1,5 @@
-# Auto Application
-This application provides the customer to learn more about the car.
-
-## Getting Started
+# Bugatti Veyron
+This application provides the customer to learn more about the Bugatti Veyron.
 
 
 ## Installing
@@ -16,11 +14,11 @@ $ cd Desktop
 
 # Clone this repository into your local machine
 
-$ git clone https://github.com/jobaile/Baile_Joanna_Doria_Fernando_Autoapp
+$ git clone https://github.com/jobaile/Baile_J_Doria_F_Autoapp
 
 # Go into the repository
 
-$ cd Baile_Joanna_Doria_Fernando_Autoapp
+$ cd Baile_J_Doria_F_Autoapp
 
 ```
 
@@ -30,6 +28,7 @@ And you’re done!
 
 * [Bootstrap](https://getbootstrap.com/) - Framework
 * [SASS](https://sass-lang.com/) - CSS
+* [VueJS](https://vuejs.org/) - Vue.js
 
 ## Authors
 * **Fernando D'Oria** (https://github.com/nandodoria)
