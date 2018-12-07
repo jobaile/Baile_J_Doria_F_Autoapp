@@ -1,0 +1,35 @@
+#app {
+    background-color: rgba(255,255,255, 0.5);
+}
+
+#topLogo {
+    margin-left: 5rem;
+}
+
+#partsInfo {
+    width: 500px;
+    float: left;
+}
+
+.car-part {
+    text-transform: uppercase;
+}
+.part-description {
+    margin: 2em;
+}
+
+main ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 5%;
+    height: 5%;
+    margin: 1em;
+}
+
+.carNavigation {
+    float: left;
+    width: 500px;
+    overflow: hidden;
+}
