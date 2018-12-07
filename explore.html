@@ -37,12 +37,15 @@
   </nav>
 
   <div class="container-fluid"> <!--Container Start-->
-    <div class="row" id="topLogo">
+    
+    <div class="row" id="topLogo"><!--Top Logo-->
         <img src="images/logo.png" alt="bugatti logo">
         <h1>Bugatti Veyron</h1>
       </div>
+
     <h4 class="welcome-message text-center"> {{ welcomemessage }}</h4>
-      <div class="row">
+
+      <div class="row"> <!--Start of Content-->
         <div class="col-12 col-md-6 offset-md-6">
         <section :class="{ 'show-parts' : showDetails }" id="partsInfo">
               <h3 class="car-part text-center"> {{ parttitle }}</h3>
@@ -50,7 +53,7 @@
                   <p> {{ partdesc}} </p>
               </div>
               <div v-for="tbl_details in portdata">
-                  <img :src="'images/'  + tbl_details.details_pic" alt="car part">
+                  <img :src="'images/'  + tbl_details.details_pic" alt="car part"> <!--Debug this-->
               </div>
           </section>
         </div>
