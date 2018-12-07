@@ -21,11 +21,6 @@
         },
 
         methods : {
-            login() {
-                //stub
-                console.log('login functionality');
-            },
-
             fetchSingle(e) {
                 //debugger;
                 this.fetchCarData(e.currentTarget.dataset.part);
